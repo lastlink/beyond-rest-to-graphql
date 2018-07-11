@@ -36,3 +36,17 @@ You have to restart the server yourself when you make changes.
 
 ## Graphiql
 Go to http://localhost:3000/graphiql to run queries!
+
+Example query:
+
+```
+query fetchstuff{
+  articles{
+    title
+    summary
+  }
+  authors{
+    name
+  }
+}
+```
